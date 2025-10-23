@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- =========================================================
+       InstapromoCodes • One Page SEO + EEAT + NLP • USA Focus
+       Requirement notes:
+          with the exact texts: "Instacart promo code" and "Instacart coupon".
+       2) Include one trusted .gov external reference.
+       3) No bitmap images, use Font Awesome icons and CSS only.
+       4) No em or en dashes, use commas or parentheses.
+       5) Modern responsive layout using Bootstrap 5, Tailwind, and Font Awesome.
+       6) Include long-form article, codes table, tips, EEAT sections, video, FAQ, schema.
+       7) Keep everything production ready and copy paste deployable on GitHub Pages.
+       ========================================================= -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>InstapromoCodes, Working Instacart Deals, Tips, and Help (2025)</title>
-  <meta name="description" content="Find a working Instacart deal today. Simple steps, sample codes, eligibility notes, checkout fixes, and trusted references for U.S. shoppers. Includes video, FAQs, and contact." />
+  <title>InstapromoCodes, Working Instacart Savings Guide for U.S. Shoppers</title>
+  <meta name="description" content="A practical Instacart savings guide for the U.S. Learn proven tips, see sample codes, and fix checkout issues fast. Includes long article, tables, video, and a trusted .gov reference." />
   <link rel="canonical" href="https://instapromocodes.github.io/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="InstapromoCodes, Working Instacart Deals, Tips, and Help (2025)" />
-  <meta property="og:description" content="Find a working Instacart deal today with clear steps, sample codes, and checkout fixes." />
+  <meta property="og:title" content="InstapromoCodes, Working Instacart Savings Guide for U.S. Shoppers" />
+  <meta property="og:description" content="Proven steps to get real savings on Instacart. See sample codes, tips, and common fixes." />
   <meta property="og:url" content="https://instapromocodes.github.io/" />
-  <meta property="og:image" content="https://instapromocodes.github.io/og.jpg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="InstapromoCodes, Working Instacart Deals, Tips, and Help (2025)" />
-  <meta name="twitter:description" content="Find a working Instacart deal today with clear steps, sample codes, and checkout fixes." />
-  <meta name="twitter:image" content="https://instapromocodes.github.io/og.jpg" />
+  <meta name="twitter:title" content="InstapromoCodes, Working Instacart Savings Guide for U.S. Shoppers" />
+  <meta name="twitter:description" content="Proven steps to get real savings on Instacart. See sample codes, tips, and common fixes." />
 
   <!-- Fonts and Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,30 +43,54 @@
 
   <style>
     :root{
-      --brand: #0ea5e9;
-      --brand-2: #22c55e;
+      --brand:#0ea5e9;
+      --brand-2:#22c55e;
       --ink:#0f172a;
       --muted:#475569;
+      --shell:#f8fafc;
+      --line:#e2e8f0;
     }
-    body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--ink); background:#ffffff;}
-    .shadow-soft{box-shadow: 0 10px 30px rgba(2,8,23,0.08);}
+    html, body{height:100%;}
+    body{font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--ink); background:#ffffff;}
+    .shadow-soft{box-shadow:0 10px 28px rgba(2,8,23,.08);}
+    .shadow-ultra{box-shadow:0 24px 64px rgba(2,8,23,.12);}
     .badge-soft{background:#e0f2fe; color:#0c4a6e;}
     .btn-brand{background:var(--brand); border-color:var(--brand); color:#fff;}
     .btn-brand:hover{background:#0284c7; border-color:#0284c7; color:#fff;}
     .btn-ghost{background:#f1f5f9; color:#0f172a;}
-    .icon-tile{display:flex; align-items:center; gap:.75rem; padding:1rem 1.25rem; border:1px solid #e2e8f0; border-radius:.8rem;}
+    .icon-tile{display:flex; align-items:center; gap:.75rem; padding:1rem 1.25rem; border:1px solid var(--line); border-radius:.8rem; background:#fff;}
     .icon-xl{font-size:2rem;}
     section{scroll-margin-top:96px;}
     .nav-link{font-weight:600;}
     .table thead th{background:#f1f5f9; white-space:nowrap;}
-    .disclaimer small{color:var(--muted);}
-    .checklist li{margin-bottom:.4rem;}
-    .list-compact li{margin-bottom:.35rem;}
     .codechip{font-weight:700; letter-spacing:.04em; background:#ecfeff; border:1px dashed #0891b2; padding:.25rem .5rem; border-radius:.5rem;}
     .footnote{color:#64748b;}
+    .prose p{margin-bottom:1rem;}
+    .prose ul{margin-bottom:1rem;}
+    .grid-guide{display:grid; grid-template-columns:repeat(12, minmax(0,1fr)); gap:1rem;}
+    .grid-span-7{grid-column: span 7 / span 7;}
+    .grid-span-5{grid-column: span 5 / span 5;}
+    @media (max-width:991.98px){
+      .grid-guide{grid-template-columns:repeat(1, minmax(0,1fr));}
+      .grid-span-7,.grid-span-5{grid-column: auto;}
+    }
+    .kbd{display:inline-block; padding:.25rem .5rem; border:1px solid var(--line); border-bottom-width:2px; border-radius:.4rem; background:#fff;}
+    .callout{border-left:4px solid var(--brand); background:#f0f9ff; padding:1rem 1rem; border-radius:.25rem;}
+    .caps{letter-spacing:.05em; text-transform:uppercase; font-weight:700; font-size:.75rem;}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;}
+    .hr-soft{border:0; height:1px; background:linear-gradient(to right, transparent, #e5e7eb, transparent);}
+    .tag{display:inline-flex; align-items:center; gap:.5rem; padding:.4rem .6rem; border:1px solid var(--line); border-radius:999px; font-size:.875rem; background:#fff;}
+    .tag i{opacity:.9;}
+    .marker{background:linear-gradient(transparent 60%, #fff59d 60%);}
+    .card-plain{border:1px solid var(--line); border-radius:.8rem; background:#ffffff;}
+    .nlp{color:#0b6bcb;}
+    .list-compact li{margin-bottom:.35rem;}
+    .disclaimer small{color:var(--muted);}
+    .toc a{display:block; padding:.25rem 0; color:#0f172a; text-decoration:none;}
+    .toc a:hover{text-decoration:underline;}
   </style>
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Schema: Organization, WebSite, WebPage, Article, VideoObject, FAQPage -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -68,10 +101,7 @@
         "name":"InstapromoCodes",
         "url":"https://instapromocodes.github.io/",
         "logo":"https://instapromocodes.github.io/logo.png",
-        "sameAs":[
-          "https://www.usa.gov/",
-          "https://www.ftc.gov/"
-        ],
+        "sameAs":["https://www.usa.gov/"],
         "contactPoint":{
           "@type":"ContactPoint",
           "contactType":"customer support",
@@ -94,46 +124,35 @@
         "@id":"https://instapromocodes.github.io/#website",
         "url":"https://instapromocodes.github.io/",
         "name":"InstapromoCodes",
-        "publisher":{"@id":"https://instapromocodes.github.io/#org"},
-        "potentialAction":{
-          "@type":"SearchAction",
-          "target":"https://instapromocodes.github.io/?q={search_term_string}",
-          "query-input":"required name=search_term_string"
-        }
-      },
-      {
-        "@type":"BreadcrumbList",
-        "@id":"https://instapromocodes.github.io/#bread",
-        "itemListElement":[
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://instapromocodes.github.io/"},
-          {"@type":"ListItem","position":2,"name":"Instacart Savings Guide","item":"https://instapromocodes.github.io/#guide"},
-          {"@type":"ListItem","position":3,"name":"Codes","item":"https://instapromocodes.github.io/#codes"}
-        ]
+        "publisher":{"@id":"https://instapromocodes.github.io/#org"}
       },
       {
         "@type":"WebPage",
         "@id":"https://instapromocodes.github.io/#webpage",
         "url":"https://instapromocodes.github.io/",
-        "name":"InstapromoCodes, Working Instacart Deals, Tips, and Help (2025)",
-        "description":"A practical, U.S. focused guide to Instacart savings, with sample codes, tables, video, and FAQs.",
-        "primaryImageOfPage":"https://instapromocodes.github.io/og.jpg",
+        "name":"InstapromoCodes, Instacart Savings Guide",
+        "description":"U.S. focused guide to Instacart savings with sample codes, tips, and checkout fixes.",
         "datePublished":"2025-10-23",
         "dateModified":"2025-10-23",
-        "breadcrumb":{"@id":"https://instapromocodes.github.io/#bread"}
+        "breadcrumb":{
+          "@type":"BreadcrumbList",
+          "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://instapromocodes.github.io/"},
+            {"@type":"ListItem","position":2,"name":"Guide","item":"https://instapromocodes.github.io/#guide"},
+            {"@type":"ListItem","position":3,"name":"Article","item":"https://instapromocodes.github.io/#article"},
+            {"@type":"ListItem","position":4,"name":"Codes","item":"https://instapromocodes.github.io/#codes"}
+          ]
+        }
       },
       {
         "@type":"Article",
         "@id":"https://instapromocodes.github.io/#article",
-        "headline":"InstapromoCodes, Working Instacart Deals, Tips, and Help (2025)",
-        "author":{
-          "@type":"Person",
-          "name":"Ava Mitchell",
-          "url":"https://instapromocodes.github.io/#author"
-        },
+        "headline":"Working Instacart Savings Guide for U.S. Shoppers",
+        "author":{"@type":"Person","name":"Ava Mitchell"},
         "publisher":{"@id":"https://instapromocodes.github.io/#org"},
-        "image":"https://instapromocodes.github.io/og.jpg",
         "datePublished":"2025-10-23",
         "dateModified":"2025-10-23",
+        "image":"https://instapromocodes.github.io/og.jpg",
         "mainEntityOfPage":{"@id":"https://instapromocodes.github.io/#webpage"}
       },
       {
@@ -141,39 +160,16 @@
         "@id":"https://instapromocodes.github.io/#video",
         "name":"Instacart Savings, Simple Tips",
         "thumbnailUrl":"https://i.ytimg.com/vi/iQpk6HGqYJM/maxresdefault.jpg",
-        "uploadDate":"2025-01-01",
-        "embedUrl":"https://www.youtube.com/embed/iQpk6HGqYJM"
-      },
-      {
-        "@type":"ItemList",
-        "@id":"https://instapromocodes.github.io/#itemlist",
-        "name":"Sample Instacart Codes",
-        "itemListElement":[
-          {"@type":"ListItem","position":1,"name":"WELCOME15","url":"https://instacartpromocodes.com/"},
-          {"@type":"ListItem","position":2,"name":"GROCERY10","url":"https://instacartpromocodes.com/"},
-          {"@type":"ListItem","position":3,"name":"FREEDELIVERY","url":"https://instacartpromocodes.com/"},
-          {"@type":"ListItem","position":4,"name":"FRESH20","url":"https://instacartpromocodes.com/"}
-        ]
+        "embedUrl":"https://www.youtube.com/embed/iQpk6HGqYJM",
+        "uploadDate":"2025-01-01"
       },
       {
         "@type":"FAQPage",
         "@id":"https://instapromocodes.github.io/#faq",
         "mainEntity":[
-          {
-            "@type":"Question",
-            "name":"Do Instacart codes work in 2025?",
-            "acceptedAnswer":{"@type":"Answer","text":"Yes, many codes still work. Read the terms, remove non eligible items, and apply one discount at a time."}
-          },
-          {
-            "@type":"Question",
-            "name":"Can I use EBT with Instacart?",
-            "acceptedAnswer":{"@type":"Answer","text":"Some retailers accept EBT SNAP in eligible states. Review the USDA SNAP Online Purchasing page and check your store policy."}
-          },
-          {
-            "@type":"Question",
-            "name":"Why did my code fail?",
-            "acceptedAnswer":{"@type":"Answer","text":"Common reasons include exclusions, expired offers, account restrictions, and missing minimums. Clear the cart, re add items, then try again."}
-          }
+          {"@type":"Question","name":"Do Instacart promo codes still work in 2025","acceptedAnswer":{"@type":"Answer","text":"Yes, many offers still work. Read the terms, meet the minimums, and apply one discount at a time."}},
+          {"@type":"Question","name":"Why did my code fail at checkout","acceptedAnswer":{"@type":"Answer","text":"Common reasons include excluded items, expired or account limited offers, and missing basket minimums."}},
+          {"@type":"Question","name":"Can I use EBT SNAP on Instacart","acceptedAnswer":{"@type":"Answer","text":"Some retailers accept EBT SNAP in eligible states. Check USDA SNAP Online Purchasing guidance and your store policy."}}
         ]
       }
     ]
@@ -182,50 +178,46 @@
 </head>
 <body class="bg-white">
 
-  <!-- Top Info Bar -->
+  <!-- Top Bar -->
   <div class="w-full bg-slate-50 border-b">
     <div class="container py-2 d-flex flex-wrap gap-3 justify-content-between align-items-center">
       <div class="d-flex align-items-center gap-2">
         <i class="fa-solid fa-shield-halved text-success"></i>
-        <small class="text-slate-600">Trusted tips for U.S. shoppers, updated Oct 23, 2025</small>
+        <small class="text-slate-600">U.S. shoppers guide, updated Oct 23, 2025</small>
       </div>
       <div class="d-flex align-items-center gap-3">
-        <a href="#contact" class="text-slate-700 text-decoration-none"><small>Contact</small></a>
-        <a href="#about" class="text-slate-700 text-decoration-none"><small>About</small></a>
+        <a href="#guide" class="text-slate-700 text-decoration-none"><small>Guide</small></a>
+        <a href="#article" class="text-slate-700 text-decoration-none"><small>Article</small></a>
+        <a href="#codes" class="text-slate-700 text-decoration-none"><small>Codes</small></a>
         <a href="#faq" class="text-slate-700 text-decoration-none"><small>FAQ</small></a>
+        <a href="#contact" class="text-slate-700 text-decoration-none"><small>Contact</small></a>
       </div>
     </div>
   </div>
 
-  <!-- Header, icon based hero -->
+  <!-- Masthead -->
   <header class="border-bottom bg-white">
     <div class="container py-5">
       <div class="row g-4 align-items-center">
-        <div class="col-lg-7">
+        <div class="col-12">
           <span class="badge badge-soft rounded-pill px-3 py-2 mb-3">Instacart Savings Guide</span>
-          <h1 class="display-5 fw-extrabold mb-3">Cut grocery costs with verified steps and clear examples</h1>
-          <p class="lead mb-4">This page helps you test a code quickly, fix common checkout issues, and get reliable savings. It is short, honest, and made for everyday shoppers in the United States.</p>
-          <div class="d-flex flex-wrap gap-3">
-            <a class="btn btn-brand btn-lg shadow-soft" href="https://instacartpromocodes.com/" rel="dofollow"><strong> Instacart promo code </strong></a>
-            <a class="btn btn-ghost btn-lg" href="https://instacartpromocodes.com/" rel="dofollow"><strong> Instacart coupon </strong></a>
-          </div>
-          <p class="mt-3 mb-0 footnote">Exact anchor text is used as requested. Not affiliated with Instacart.</p>
-        </div>
-        <div class="col-lg-5">
+          <h1 class="display-5 fw-extrabold mb-3">Save on groceries with simple, verified steps</h1>
+          <p class="lead mb-4">This page shows how to find real Instacart savings, test codes the smart way, and fix common checkout issues. It is plain English, clear, and built for quick wins.</p>
           <div class="row g-3">
-            <div class="col-6">
-              <div class="icon-tile shadow-soft"><i class="fa-solid fa-basket-shopping icon-xl text-info"></i><div><strong>Groceries</strong><br><small>Popular categories</small></div></div>
+            <div class="col-6 col-md-3">
+              <div class="icon-tile shadow-soft"><i class="fa-solid fa-ticket icon-xl text-emerald-600"></i><div><strong>Promos</strong><br><small>Simple examples</small></div></div>
             </div>
-            <div class="col-6">
-              <div class="icon-tile shadow-soft"><i class="fa-solid fa-ticket icon-xl text-emerald-600"></i><div><strong>Promo</strong><br><small>Simple codes</small></div></div>
+            <div class="col-6 col-md-3">
+              <div class="icon-tile shadow-soft"><i class="fa-solid fa-wrench icon-xl text-indigo-600"></i><div><strong>Fixes</strong><br><small>Fast troubleshooting</small></div></div>
             </div>
-            <div class="col-6">
-              <div class="icon-tile shadow-soft"><i class="fa-solid fa-truck-fast icon-xl text-indigo-600"></i><div><strong>Delivery</strong><br><small>Pickup options</small></div></div>
+            <div class="col-6 col-md-3">
+              <div class="icon-tile shadow-soft"><i class="fa-solid fa-truck-fast icon-xl text-sky-600"></i><div><strong>Options</strong><br><small>Pickup or delivery</small></div></div>
             </div>
-            <div class="col-6">
-              <div class="icon-tile shadow-soft"><i class="fa-solid fa-circle-info icon-xl text-rose-500"></i><div><strong>Fixes</strong><br><small>Quick steps</small></div></div>
+            <div class="col-6 col-md-3">
+              <div class="icon-tile shadow-soft"><i class="fa-solid fa-circle-check icon-xl text-amber-500"></i><div><strong>Confirm</strong><br><small>Final total</small></div></div>
             </div>
           </div>
+          <p class="mt-3 footnote">Independent resource. Not affiliated with Instacart.</p>
         </div>
       </div>
     </div>
@@ -241,69 +233,146 @@
       <div id="mainNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
           <li class="nav-item"><a class="nav-link" href="#guide">Guide</a></li>
+          <li class="nav-item"><a class="nav-link" href="#article">Article</a></li>
           <li class="nav-item"><a class="nav-link" href="#codes">Codes</a></li>
           <li class="nav-item"><a class="nav-link" href="#matrix">Deals Matrix</a></li>
           <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">EEAT</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Main Guide -->
+  <!-- Quick Guide -->
   <section id="guide" class="py-5">
     <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-7">
-          <h2 class="h2 fw-bold mb-3">How to get working savings today</h2>
-          <p>Start with one code and a simple cart. Apply the code before you add extras. If it fails, fix the cart, then try again. Keep it clean and quick.</p>
-          <ol class="mb-4 checklist">
-            <li>Open the official hub, apply one code only.</li>
-            <li>Remove excluded items like gift cards or alcohol when the terms say so.</li>
-            <li>Meet the minimum basket size if required by the offer.</li>
-            <li>Try pickup if delivery fees are excluded by the code.</li>
-            <li>Sign out, then sign in again if the cart acts strange.</li>
+      <div class="grid-guide">
+        <div class="grid-span-7">
+          <h2 class="h2 fw-bold mb-3">Quick start, get a working discount today</h2>
+          <ol class="prose">
+            <li>Keep your cart simple at first. Add essentials only.</li>
+            <li>Apply a single code. Do not stack discounts.</li>
+            <li>Meet any minimum basket requirement before checkout.</li>
+            <li>Remove excluded items like gift cards or alcohol if terms say so.</li>
+            <li>Try pickup if delivery fees are excluded by the offer.</li>
+            <li>Sign out, then sign in if the cart looks stuck.</li>
           </ol>
-
-          <h3 class="h4 fw-semibold">Helpful references for U.S. shoppers</h3>
-          <ul class="list-compact">
-            <li><a href="https://www.fns.usda.gov/snap/online-purchasing-pilot" target="_blank" rel="noopener">USDA, SNAP Online Purchasing Pilot</a> for EBT acceptance details by retailer and state.</li>
-            <li><a href="https://www.ftc.gov/consumer-alerts" target="_blank" rel="noopener">FTC Consumer Alerts</a> for safe shopping guidance and scam prevention.</li>
-          </ul>
-
-          <div class="alert alert-info shadow-soft mt-4" role="alert">
-            <i class="fa-solid fa-lightbulb me-2"></i>
-            Tip, test a code on a small order first, then scale up when it applies.
+          <div class="callout mt-3">
+            <div class="d-flex align-items-start gap-3">
+              <i class="fa-solid fa-lightbulb mt-1"></i>
+              <div>
+                <strong>Tip</strong>, test a code on a small order first. Scale up once it applies cleanly.
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="p-4 border rounded-3 shadow-soft">
-            <h3 class="h5 fw-bold mb-3"><i class="fa-solid fa-clipboard-check text-info me-2"></i>Fast checklist</h3>
-            <ul class="mb-3 list-compact">
-              <li>Code terms match your cart</li>
-              <li>Minimum basket met</li>
-              <li>Store supports the offer</li>
-              <li>Only one discount applied</li>
-            </ul>
-            <a class="btn btn-brand w-100 mb-2" href="https://instacartpromocodes.com/" rel="dofollow"><strong> Instacart promo code </strong></a>
-            <a class="btn btn-ghost w-100" href="https://instacartpromocodes.com/" rel="dofollow"><strong> Instacart coupon </strong></a>
-            <small class="d-block mt-2 text-slate-500">Independent resource, for education only.</small>
+        <div class="grid-span-5">
+          <div class="p-4 card-plain shadow-soft">
+            <h3 class="h5 fw-bold mb-2"><i class="fa-solid fa-scale-balanced text-info me-2"></i>Helpful .gov reference</h3>
+            <p class="mb-2">For EBT SNAP eligibility on online orders, review the official USDA resource for current details.</p>
+            <p class="mb-0"><a href="https://www.fns.usda.gov/snap/online-purchasing-pilot" target="_blank" rel="noopener">USDA SNAP Online Purchasing Pilot</a></p>
+          </div>
+          <div class="p-4 card-plain shadow-soft mt-3">
+            <h3 class="h6 fw-bold mb-2">On this page</h3>
+            <div class="toc">
+              <a href="#article"><i class="fa-regular fa-file-lines me-2"></i>Long article</a>
+              <a href="#codes"><i class="fa-solid fa-ticket me-2"></i>Sample codes</a>
+              <a href="#matrix"><i class="fa-solid fa-table-list me-2"></i>Deals matrix</a>
+              <a href="#video"><i class="fa-brands fa-youtube me-2"></i>Walk through video</a>
+              <a href="#faq"><i class="fa-regular fa-circle-question me-2"></i>FAQ</a>
+              <a href="#contact"><i class="fa-regular fa-envelope me-2"></i>Contact and EEAT</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Article with EXACTLY TWO dofollow links to instacartpromocodes.com -->
+  <section id="article" class="py-5 bg-slate-50">
+    <div class="container">
+      <h2 class="h2 fw-bold mb-3">Complete Instacart savings article for 2025</h2>
+
+      <div class="prose">
+        <p>Instacart discounts vary by retailer and region, so a clean workflow gives you consistent results. Start with a focused basket, confirm eligibility, then apply only one offer. If you follow a short flow, you will avoid most checkout errors and you will save time.</p>
+
+        <p>When you want a reliable entry point, you can review current offers here, use an <b></b><a href="https://instacartpromocodes.com/" rel="dofollow">Instacart promo code</a></p></b> in a simple cart first, then add non essentials later. This order of steps keeps the cart clean and keeps troubleshooting fast.</p>
+
+        <h3 class="h4 fw-semibold mt-4">What to check before you apply a code</h3>
+        <ul>
+          <li>Eligible categories, look for common exclusions like alcohol, gift cards, or specialty items</li>
+          <li>Minimum basket size, some offers require a threshold, add a low cost eligible item if needed</li>
+          <li>Retailer support, not all stores honor every offer, switch store or use pickup if required</li>
+          <li>Account status, some offers are new customer or account limited, sign out and in if things look stuck</li>
+        </ul>
+
+        <h3 class="h4 fw-semibold mt-4">Fixing common errors</h3>
+        <ul>
+          <li>Remove excluded items and refresh the cart, then reapply the code</li>
+          <li>Rebuild the cart with eligible items only, confirm the code, then add extras</li>
+          <li>Try a different delivery window if fees conflict with the offer, or choose pickup</li>
+          <li>Use one discount per order, stacking usually blocks checkout</li>
+        </ul>
+
+        <h3 class="h4 fw-semibold mt-4">Make loyalty work to your advantage</h3>
+        <p>Link a store loyalty account when available. Loyalty can unlock sale prices in the cart and those reductions often combine with everyday deals. This is simple to set up and it helps you get a lower total without extra clicks.</p>
+
+        <h3 class="h4 fw-semibold mt-4">Build smarter baskets</h3>
+        <p>Use categories that often qualify, for example produce, pantry, or household basics. Add specialty items only after the discount applies. Always check the final price before you confirm the order, this last look protects your total.</p>
+
+        <p>If you want an easy reference inside your weekly routine, you can look up an <a href="https://instacartpromocodes.com/" rel="dofollow">Instacart coupon</a> and repeat the same test flow, keep your cart lean, then expand. This habit keeps the process consistent and keeps your savings reliable.</p>
+
+        <h3 class="h4 fw-semibold mt-4">Troubleshooting checklist</h3>
+        <ul class="list-compact">
+          <li>One code in a clean cart</li>
+          <li>Replace excluded items with eligible alternatives</li>
+          <li>Meet the minimum, even a small add on helps</li>
+          <li>Try the app if the browser feels slow, or sign out and in</li>
+          <li>Pickup can fix fee conflicts</li>
+        </ul>
+
+        <hr class="hr-soft my-4" />
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="p-4 card-plain shadow-soft h-100">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <span class="caps">NLP topics</span>
+                <span class="tag"><i class="fa-solid fa-hashtag"></i> grocery savings</span>
+              </div>
+              <p class="mb-2">Relevant phrases include <span class="nlp">working codes</span>, <span class="nlp">checkout fixes</span>, <span class="nlp">minimum basket</span>, <span class="nlp">eligible items</span>, and <span class="nlp">pickup window</span>. These match real search behavior and help readers scan the content quickly.</p>
+              <p class="mb-0">The goal is clarity. Short sentences. Direct steps. Honest notes when offers fail.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-4 card-plain shadow-soft h-100">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <span class="caps">EEAT signals</span>
+                <span class="tag"><i class="fa-solid fa-check"></i> transparent</span>
+              </div>
+              <ul class="list-compact mb-0">
+                <li>Clear author and business contact</li>
+                <li>Policy aligned language and disclaimers</li>
+                <li>Source to .gov for consumer guidance</li>
+                <li>Freshness noted in the header</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Codes Section -->
-  <section id="codes" class="py-5 bg-slate-50">
+  <section id="codes" class="py-5">
     <div class="container">
       <div class="d-flex align-items-center justify-content-between mb-3">
-        <h2 class="h2 fw-bold mb-0">Sample codes and how to use them</h2>
+        <h2 class="h2 fw-bold mb-0">Sample codes and how they usually work</h2>
         <span class="badge badge-soft rounded-pill px-3 py-2">Updated Oct 23, 2025</span>
       </div>
-      <p class="mb-4">These examples show what typical Instacart offers look like. Values vary by retailer and region. Always read terms inside your app.</p>
+      <p class="mb-4">These examples show typical Instacart offers. Values vary by retailer and location. Always read terms in your app.</p>
 
       <div class="table-responsive shadow-soft rounded-3">
         <table class="table align-middle mb-0">
@@ -313,68 +382,74 @@
               <th>What you get</th>
               <th>Key terms</th>
               <th style="min-width:140px;">Status</th>
-              <th style="min-width:160px;">Try</th>
             </tr>
           </thead>
-          <tbody>
+        <tbody>
             <tr>
               <td><span class="codechip">WELCOME15</span></td>
               <td>$15 off first order</td>
-              <td>New account, minimum may apply, excludes alcohol and gift cards</td>
+              <td>New account, minimum may apply, common exclusions</td>
               <td><i class="fa-solid fa-circle-check text-emerald-600 me-1"></i>Common</td>
-              <td><a class="btn btn-sm btn-brand" href="https://instacartpromocodes.com/" rel="dofollow">Apply</a></td>
             </tr>
             <tr>
               <td><span class="codechip">GROCERY10</span></td>
               <td>$10 off eligible items</td>
-              <td>Category limited, check the item list before checkout</td>
+              <td>Category limited, check the eligible list</td>
               <td><i class="fa-solid fa-circle-check text-emerald-600 me-1"></i>Often seen</td>
-              <td><a class="btn btn-sm btn-brand" href="https://instacartpromocodes.com/" rel="dofollow">Apply</a></td>
             </tr>
             <tr>
               <td><span class="codechip">FREEDELIVERY</span></td>
               <td>$0 delivery fee window</td>
-              <td>Service fees may still apply, time window restricted</td>
+              <td>Service fees may remain, timing restricted</td>
               <td><i class="fa-solid fa-circle-minus text-amber-500 me-1"></i>Varies</td>
-              <td><a class="btn btn-sm btn-brand" href="https://instacartpromocodes.com/" rel="dofollow">Apply</a></td>
             </tr>
             <tr>
               <td><span class="codechip">FRESH20</span></td>
               <td>Up to 20 percent off produce</td>
               <td>Eligible items only, store opt in needed</td>
               <td><i class="fa-solid fa-circle-minus text-amber-500 me-1"></i>Varies</td>
-              <td><a class="btn btn-sm btn-brand" href="https://instacartpromocodes.com/" rel="dofollow">Apply</a></td>
             </tr>
-          </tbody>
+            <tr>
+              <td><span class="codechip">PICKUP5</span></td>
+              <td>$5 off pickup order</td>
+              <td>Pickup required, minimum may apply</td>
+              <td><i class="fa-solid fa-circle-minus text-amber-500 me-1"></i>Varies</td>
+            </tr>
+            <tr>
+              <td><span class="codechip">HOUSEHOLD15</span></td>
+              <td>15 percent off household items</td>
+              <td>Eligible list only, retailer dependent</td>
+              <td><i class="fa-solid fa-circle-minus text-amber-500 me-1"></i>Varies</td>
+            </tr>
+        </tbody>
         </table>
       </div>
 
       <div class="row g-4 mt-4">
         <div class="col-md-6">
-          <div class="p-4 border rounded-3 shadow-soft h-100">
-            <h3 class="h5 fw-bold"><i class="fa-solid fa-wrench me-2 text-info"></i>Fix checkout errors quickly</h3>
-            <ul class="list-compact mb-0">
+          <div class="p-4 card-plain shadow-soft h-100">
+            <h3 class="h5 fw-bold"><i class="fa-solid fa-wrench me-2 text-info"></i>Fix checkout problems</h3>
+            <ul class="mb-0">
               <li>Remove excluded items, then reapply the code</li>
-              <li>Clear the cart, sign out, then sign in again</li>
-              <li>Switch to pickup if delivery is excluded by the offer</li>
-              <li>Use only one code, stacking usually blocks checkout</li>
+              <li>Clear the cart, sign out and in, or try the app</li>
+              <li>Switch to pickup if delivery is excluded</li>
+              <li>Apply one discount only, stacking fails often</li>
             </ul>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="p-4 border rounded-3 shadow-soft h-100">
-            <h3 class="h5 fw-bold"><i class="fa-solid fa-scale-balanced me-2 text-info"></i>Important reminders</h3>
-            <ul class="list-compact mb-0">
-              <li>Values and availability change by retailer and location</li>
-              <li>Some stores require a linked loyalty account</li>
-              <li>Codes may expire or be account limited</li>
-              <li>Always check the final price before you confirm</li>
+          <div class="p-4 card-plain shadow-soft h-100">
+            <h3 class="h5 fw-bold"><i class="fa-solid fa-scale-balanced me-2 text-info"></i>Smart rules</h3>
+            <ul class="mb-0">
+              <li>Values and availability change by retailer and zip code</li>
+              <li>Some stores need a linked loyalty account</li>
+              <li>Check the final price before you confirm</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <p class="mt-3 footnote">Examples are for education. Use your app to confirm current offers in your zip code.</p>
+      <p class="mt-3 footnote">Examples are for education. Confirm current offers in your app before purchase.</p>
     </div>
   </section>
 
@@ -439,9 +514,9 @@
         <div class="col-lg-6">
           <div class="row g-3">
             <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-list-check icon-xl text-indigo-600"></i><div><strong>Steps</strong><br><small>Do first things first</small></div></div></div>
-            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-ban icon-xl text-rose-500"></i><div><strong>Avoid</strong><br><small>Stacking errors</small></div></div></div>
-            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-clock icon-xl text-amber-500"></i><div><strong>Timing</strong><br><small>Use fee windows</small></div></div></div>
-            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-check icon-xl text-emerald-600"></i><div><strong>Confirm</strong><br><small>Final price check</small></div></div></div>
+            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-ban icon-xl text-rose-500"></i><div><strong>Avoid</strong><br><small>Stacking mistakes</small></div></div></div>
+            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-clock icon-xl text-amber-500"></i><div><strong>Timing</strong><br><small>Fee windows</small></div></div></div>
+            <div class="col-6"><div class="icon-tile shadow-soft"><i class="fa-solid fa-check icon-xl text-emerald-600"></i><div><strong>Confirm</strong><br><small>Final total</small></div></div></div>
           </div>
         </div>
       </div>
@@ -459,7 +534,7 @@
           </h2>
           <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              Apply one code at a time. Keep the cart simple. If it fails, clear the cart and try again with eligible items only. Check the minimums and timing.
+              Apply one code in a simple cart. If it fails, remove excluded items, refresh the cart, and try again. Meet any minimums first.
             </div>
           </div>
         </div>
@@ -469,90 +544,32 @@
           </h2>
           <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              Most orders accept one discount. Stacking often blocks checkout. Apply one and confirm the total before you place the order.
+              Most orders allow one discount. Stacking blocks checkout often. Apply one and confirm the total before you place the order.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="q3">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">Is EBT supported</button>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">Is EBT SNAP supported</button>
           </h2>
-        <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+          <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              Some retailers accept EBT SNAP in eligible states. Review the USDA page and your store policy before you place the order.
+              Some retailers accept EBT SNAP in eligible states. Review the USDA resource and your store policy before checkout.
             </div>
           </div>
         </div>
       </div>
-
-      <div class="mt-4">
-        <p class="mb-1">Useful .gov references</p>
-        <ul class="list-compact">
-          <li><a href="https://www.fns.usda.gov/snap/online-purchasing-pilot" target="_blank" rel="noopener">USDA SNAP Online Purchasing Pilot</a></li>
-          <li><a href="https://www.ftc.gov/consumer-alerts" target="_blank" rel="noopener">FTC Consumer Alerts</a></li>
-        </ul>
-      </div>
+      <p class="mt-3 footnote">This guide is educational. Always verify in your app before purchase.</p>
     </div>
   </section>
 
-  <!-- EEAT, About -->
-  <section id="about" class="py-5 bg-slate-50">
+  <!-- Contact and EEAT -->
+  <section id="contact" class="py-5 bg-slate-50">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-7">
-          <h2 class="h2 fw-bold mb-3">About InstapromoCodes</h2>
-          <p>We publish simple, test first savings guides for U.S. households. We verify common errors, we explain quick fixes, and we keep steps short. The goal is to help you save time and money.</p>
-          <div class="row g-3 mt-3">
-            <div class="col-md-6">
-              <div class="p-4 border rounded-3 shadow-soft h-100">
-                <h3 class="h5 fw-bold"><i class="fa-solid fa-user-check me-2 text-info"></i>Author</h3>
-                <p class="mb-2"><strong id="author">Ava Mitchell</strong>, deal researcher and editor since 2018.</p>
-                <ul class="mb-0 list-compact">
-                  <li>Focus, grocery and delivery platforms</li>
-                  <li>Method, verify, simplify, publish</li>
-                  <li>Standards, accuracy, clarity, updates</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="p-4 border rounded-3 shadow-soft h-100">
-                <h3 class="h5 fw-bold"><i class="fa-solid fa-pen-ruler me-2 text-info"></i>Editorial standards</h3>
-                <ul class="mb-0 list-compact">
-                  <li>Clear methods you can repeat</li>
-                  <li>Corrections when users report issues</li>
-                  <li>Periodic updates for freshness</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="alert alert-warning mt-4 disclaimer" role="alert">
-            <i class="fa-solid fa-triangle-exclamation me-2"></i>
-            <small>This site is independent. We are not Instacart. Information is educational, verify in your app before purchase.</small>
-          </div>
-        </div>
-        <div class="col-lg-5">
-          <div class="p-4 border rounded-3 shadow-soft">
-            <h3 class="h5 fw-bold mb-3">Business info</h3>
-            <ul class="list-unstyled mb-3 list-compact">
-              <li><i class="fa-solid fa-location-dot text-info me-2"></i>548 Market St, Suite 748, San Francisco, CA 94104</li>
-              <li><i class="fa-solid fa-phone text-info me-2"></i>+1 415 555 0147</li>
-              <li><i class="fa-solid fa-envelope text-info me-2"></i>support@instapromocodes.site</li>
-              <li><i class="fa-solid fa-clock text-info me-2"></i>Mon to Fri, 9 am to 5 pm PT</li>
-            </ul>
-            <a class="btn btn-brand w-100" href="https://instacartpromocodes.com/" rel="dofollow"><strong> Instacart promo code </strong></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="h2 fw-bold mb-3">Contact us</h2>
+      <h2 class="h2 fw-bold mb-3">Contact and editorial standards</h2>
       <div class="row g-4">
         <div class="col-lg-6">
-          <form class="p-4 border rounded-3 shadow-soft bg-white" action="mailto:support@instapromocodes.site" method="post" enctype="text/plain">
+          <form class="p-4 card-plain shadow-soft bg-white" action="mailto:support@instapromocodes.site" method="post" enctype="text/plain">
             <div class="mb-3">
               <label class="form-label">Your name</label>
               <input type="text" class="form-control" name="name" required />
@@ -570,14 +587,21 @@
           </form>
         </div>
         <div class="col-lg-6">
-          <div class="p-4 border rounded-3 shadow-soft bg-white">
-            <h3 class="h5 fw-bold mb-2">Quick links</h3>
-            <ul class="mb-3 list-compact">
-              <li><a href="https://instacartpromocodes.com/" rel="dofollow"> Instacart coupon </a></li>
-              <li><a href="https://instacartpromocodes.com/" rel="dofollow"> Instacart promo code </a></li>
-              <li><a href="https://www.ftc.gov/consumer-advice" target="_blank" rel="noopener">FTC consumer advice</a></li>
+          <div class="p-4 card-plain shadow-soft bg-white">
+            <h3 class="h5 fw-bold mb-2">Business info</h3>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fa-solid fa-location-dot text-info me-2"></i>548 Market St, Suite 748, San Francisco, CA 94104</li>
+              <li><i class="fa-solid fa-phone text-info me-2"></i>+1 415 555 0147</li>
+              <li><i class="fa-solid fa-envelope text-info me-2"></i>support@instapromocodes.site</li>
+              <li><i class="fa-solid fa-clock text-info me-2"></i>Mon to Fri, 9 am to 5 pm PT</li>
             </ul>
-            <p class="mb-0 footnote">We reply within two business days in most cases.</p>
+            <h4 class="h6 fw-bold mt-3">Editorial standards</h4>
+            <ul class="mb-0 list-compact">
+              <li>Clear methods you can repeat</li>
+              <li>Corrections when users report issues</li>
+              <li>Periodic updates for accuracy</li>
+              <li>Independent and transparent language</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -593,6 +617,8 @@
       </div>
       <div class="d-flex gap-3">
         <a href="#guide" class="text-slate-600 text-decoration-none"><small>Guide</small></a>
+        <a href="#article" class="text-slate-600 text-decoration-none"><small>Article</small></a>
+        <a href="#codes" class="text-slate-600 text-decoration-none"><small>Codes</small></a>
         <a href="#faq" class="text-slate-600 text-decoration-none"><small>FAQ</small></a>
         <a href="#contact" class="text-slate-600 text-decoration-none"><small>Contact</small></a>
       </div>
@@ -601,5 +627,38 @@
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Lightweight enhancements, no tracking -->
+  <script>
+    // Smooth scroll for in page links
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
+      anchor.addEventListener('click', function(e){
+        var targetId = this.getAttribute('href').slice(1);
+        if(!targetId) return;
+        var el = document.getElementById(targetId);
+        if(!el) return;
+        e.preventDefault();
+        window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 88, behavior: 'smooth' });
+      });
+    });
+
+    // Simple TOC highlight on scroll
+    const tocLinks = Array.from(document.querySelectorAll('.toc a'));
+    const sections = tocLinks.map(l => document.querySelector(l.getAttribute('href'))).filter(Boolean);
+
+    function onScroll(){
+      const y = window.scrollY + 120;
+      let activeIndex = 0;
+      for(let i=0; i<sections.length; i++){
+        if(sections[i].offsetTop <= y) activeIndex = i;
+      }
+      tocLinks.forEach((l, i) => {
+        if(i === activeIndex){ l.style.textDecoration = 'underline'; }
+        else { l.style.textDecoration = 'none'; }
+      });
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
 </body>
 </html>
